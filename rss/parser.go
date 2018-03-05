@@ -164,7 +164,13 @@ func (rp *Parser) parseChannel(p *xpp.XMLPullParser) (rss *Feed, err error) {
 					return nil, err
 				}
 				rss.Link = result
-			} else if name == "language" {
+			} else if name == "alink" {
+				result, err := shared.ParseText(p)
+				if err != nil {
+					return nil, err
+				}
+				rss.Link = result
+			}else if name == "language" {
 				result, err := shared.ParseText(p)
 				if err != nil {
 					return nil, err
@@ -364,7 +370,13 @@ func (rp *Parser) parseItem(p *xpp.XMLPullParser) (item *Item, err error) {
 					return nil, err
 				}
 				item.Link = result
-			} else if name == "author" {
+			} else if name == "alink" {
+				result, err := shared.ParseText(p)
+				if err != nil {
+					return nil, err
+				}
+				item.Link = result
+			}else if name == "author" {
 				result, err := shared.ParseText(p)
 				if err != nil {
 					return nil, err
@@ -522,6 +534,12 @@ func (rp *Parser) parseImage(p *xpp.XMLPullParser) (image *Image, err error) {
 					return nil, err
 				}
 				image.Link = result
+			}else if name == "alink" {
+				result, err := shared.ParseText(p)
+				if err != nil {
+					return nil, err
+				}
+				image.Link = result
 			} else if name == "width" {
 				result, err := shared.ParseText(p)
 				if err != nil {
@@ -635,6 +653,12 @@ func (rp *Parser) parseTextInput(p *xpp.XMLPullParser) (*TextInput, error) {
 				}
 				ti.Name = result
 			} else if name == "link" {
+				result, err := shared.ParseText(p)
+				if err != nil {
+					return nil, err
+				}
+				ti.Link = result
+			}else if name == "alink" {
 				result, err := shared.ParseText(p)
 				if err != nil {
 					return nil, err
