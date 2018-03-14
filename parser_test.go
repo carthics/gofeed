@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/frase-io/external-apis/gofeed"
+	"github.com/carthics/gofeed"
 	"github.com/stretchr/testify/assert"
 )
 

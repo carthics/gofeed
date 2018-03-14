@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/codegangsta/cli"
-	"github.com/frase-io/external-apis/gofeed"
-	"github.com/frase-io/external-apis/gofeed/atom"
-	"github.com/frase-io/external-apis/gofeed/rss"
+	"github.com/carthics/gofeed"
+	"github.com/carthics/gofeed/atom"
+	"github.com/carthics/gofeed/rss"
 )
 
 func main() {

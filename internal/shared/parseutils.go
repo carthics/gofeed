@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/frase-io/external-apis/goxpp"
+	"github.com/carthics/goxpp"
 )
 
 var (

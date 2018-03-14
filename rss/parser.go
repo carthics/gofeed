@@ -5,9 +5,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/frase-io/external-apis/gofeed/extensions"
-	"github.com/frase-io/external-apis/gofeed/internal/shared"
-	"github.com/frase-io/external-apis/goxpp"
+	"github.com/carthics/gofeed/extensions"
+	"github.com/carthics/gofeed/internal/shared"
+	"github.com/carthics/goxpp"
 )
 
 // Parser is a RSS Parser

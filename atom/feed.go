@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/frase-io/external-apis/gofeed/extensions"
+	"github.com/carthics/gofeed/extensions"
 )
 
 // Feed is an Atom Feed
