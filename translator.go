@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/carthics/gofeed/atom"
-	"github.com/carthics/gofeed/extensions"
-	"github.com/carthics/gofeed/internal/shared"
-	"github.com/carthics/gofeed/rss"
+	"github.com/frase-io/external-apis/gofeed/atom"
+	"github.com/frase-io/external-apis/gofeed/extensions"
+	"github.com/frase-io/external-apis/gofeed/internal/shared"
+	"github.com/frase-io/external-apis/gofeed/rss"
 )
 
 // Translator converts a particular feed (atom.Feed or rss.Feed)

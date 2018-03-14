@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/carthics/gofeed/extensions"
-	"github.com/carthics/gofeed/internal/shared"
-	"github.com/carthics/goxpp"
+	"github.com/frase-io/external-apis/gofeed/extensions"
+	"github.com/frase-io/external-apis/gofeed/internal/shared"
+	"github.com/frase-io/external-apis/goxpp"
 )
 
 // Parser is an Atom Parser
