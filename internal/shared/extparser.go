@@ -3,8 +3,8 @@ package shared
 import (
 	"strings"
 
-	"github.com/carthics/gofeed/extensions"
-	"github.com/carthics/goxpp"
+	"github.com/frase-io/external-apis/gofeed/extensions"
+	"github.com/frase-io/external-apis/goxpp"
 )
 
 // IsExtension returns whether or not the current

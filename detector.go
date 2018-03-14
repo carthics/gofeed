@@ -4,8 +4,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/carthics/gofeed/internal/shared"
-	"github.com/carthics/goxpp"
+	"github.com/frase-io/external-apis/gofeed/internal/shared"
+	"github.com/frase-io/external-apis/goxpp"
 )
 
 // FeedType represents one of the possible feed

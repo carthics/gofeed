@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/carthics/gofeed/extensions"
+	"github.com/frase-io/external-apis/gofeed/extensions"
 )
 
 // Feed is the universal Feed type that atom.Feed

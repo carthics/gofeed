@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/carthics/gofeed"
+	"github.com/frase-io/external-apis/gofeed"
 	"github.com/stretchr/testify/assert"
 )
 
