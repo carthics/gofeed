@@ -7,7 +7,7 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/frase-io/external-apis/gofeed/extensions"
-	"github.com/frase-io/external-apis/gofeed/internal/shared"
+	"github.com/frase-io/external-apis/gofeed/shared_parser/shared"
 	"github.com/frase-io/external-apis/goxpp"
 )
 
